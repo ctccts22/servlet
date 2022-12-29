@@ -27,16 +27,8 @@ public class PracticeServlet extends HttpServlet {
         String result4 = String.valueOf(a / b);
 
 
-
         PrintWriter out = response.getWriter();
-        if (result1.equals("resul")) {
-            out.println("값 :: " + result1);
-        } else if (result2.equals("계산2")) {
-            out.println("값 :: " + result2);
-        } else if (result3.equals("계산3")) {
-            out.println("값 :: " + result3);
-        } else if (result4.equals("계산4")) {
-            out.println("값 :: " + result4);
-        }
+        out.println("값 :: " + result1);
+
     }
 }
